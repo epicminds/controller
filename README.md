@@ -7,7 +7,7 @@ The controller keeps things in order.
 ### List Routes
 
 Request
-```
+```javascript
 POST /v1/list-routes
 {
   "filterType": "{name|region|sponsor|theme|location|type}",
