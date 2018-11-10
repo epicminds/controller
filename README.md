@@ -8,7 +8,7 @@ The controller keeps things in order.
 
 Request
 ```
-/v1/list-routes/?filterType={name|region|sponsor|theme|location|type}&filterText={string}
+GET /v1/list-routes/?filterType={name|region|sponsor|theme|location|type}&filterText={string}
 ```
 
 Reponse
@@ -29,4 +29,4 @@ Reponse
 }]
 ```
 ### Get Route
-/v1/get-route/?id=
+GET /v1/route/{id}
