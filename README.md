@@ -7,7 +7,7 @@ The controller keeps things in order.
 ### List Routes
 
 POST /v1/list-routes
-```javascript
+```json
 {
   "variables": {
     "filter": {
@@ -21,7 +21,7 @@ POST /v1/list-routes
 ```
 
 200
-```javascript
+```json
 { 
   "pageInfo": {
     "startCursor": "",
@@ -45,12 +45,9 @@ POST /v1/list-routes
 
 ### Get Route
 
-Request
-```
 GET /v1/route/{id}
-```
 
-Response
+200
 ```
 {
   "route": {
