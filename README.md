@@ -31,7 +31,7 @@ POST /v1/list-routes
   "routes": [{
     "id": "a36f3ccc-307a-4147-b4b4-d5ecd884dd72",
     "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZG",
-    "name: "Lorem Ipsum",
+    "name": "Lorem Ipsum",
     "description": "Excepteur sint occaecat cupidatat non proident"
   },
   {
